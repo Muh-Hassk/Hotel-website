@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Helliton Book A room</title>
+</head>
+<body onload="numOfGuests(); RoomTypes();">
+  <div class="wrapper">
+    <div class="header">
+      <h3 class="hotelName">Helliton</h3>
+      <div class="log">
+        <ul class="log-list">
+          <li class="log-item" id="loginNav">
+            <a href="Login.html">Login</a>
+          </li>
+          <li class="log-item" id="registerNav">
+            <a href="Register.html">Register</a>
+          </li>
+          <li class="log-item" id="bookRoom">
+            <a href='' id = Booking><ins></ins></a>
+            <a href='showBookings.html' id = ShowBok></a>
+          </li>
+          <li class="log-item" id="logoutNav"></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    
+    <nav>
+      <div class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"></li>
+          <li class="nav-item">
+            <a href="Home.html">Home</a>
+          </li>
+          <li class="nav-item" id="addApartmentNav">
+            <a href="RoomTypes.html">Room Types</a>
+          </li>
+          <li class="nav-item">
+            <a href="FeedBack.html">Feedback</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1 class="hotelBigName"> H E L L I T O N </h1>
+    <script src="script.js"></script>
+    <div class="container">
+      <div class="BookingBox">
+        <h1 id="infoUsr">Book a Room</h1>
+        <form action="#" method="post">
+          <label for="check-in-date" id="CheckInDates">Check-in Date</label>
+          <input type="date" id="check-in-date" name="check-in-date">
+          <label for="check-out-date" id="CheckOutDates">Check-out Date</label>
+          <input type="date" id="check-out-date" name="check-out-date">
+        
+          <label for="Number-of-Guests" id="NumOfGuests">Number of Guests</label>
+          <div class="ContForNumber">
+            <span class="ne"></span>
+            <span class="pre"></span>
+            <div id="box">
+              <span id="guestsNum"></span> 
+            </div>
+          </div>
+        
+          <label for="roomType" id="RmType">Room Type</label>
+          <div class="ContForRoom">
+            <p class="neRoom"></p>
+            <p class="preRoom"></p>
+            <div id="box1"> 
+              <span id="RoomTy"></span>
+            </div>
+          </div>
+
+          
+      <h1 id="RtPay"> P A Y M E N T</h1>
+          <div class="cont">
+            <input type="radio" name="paymentMethod" id="Cash" checked="checked">
+            <label for="Cash" class="chec">Cash</label>
+            <br>
+            <input type="radio" name="paymentMethod" id="Visa">
+            <label for="Visa" class="chec">VISA</label>
+          </div>
+          <button type="submit" class="log1" onclick="Book()">Book</button>
+        </form>
+      </div>
+      
+        <footer class="footerBr">
+          &copy; 2023 Mohammed Hassan Work. All rights reserved.
+        </footer>
+        </div>
+  </div>
+</body>
+</html>

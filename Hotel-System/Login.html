@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="/Users/muhammedhassan/Desktop/Hotel-System/script.js"></script> 
+
+    <title>Helliton Log in Page</title>
+</head>
+<body>
+    <div class="wrapper">
+      <div class="header">
+        <h3 class="hotelName">Helliton</h3>
+        <div class="log">
+          <ul class="log-list">
+            <li class="log-item" id="loginNav">
+              <a href="Login.html"><ins>Login</ins></a>
+            </li>
+            <li class="log-item" id="registerNav">
+              <a href="Register.html">Register</a>
+            </li>
+            <li class="log-item" id="logoutNav"></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      
+  
+      <nav>
+        <div class="nav">
+                  <ul class="nav-list">
+                      <li class="nav-item">
+                        </li>
+                    <li class="nav-item">
+                      <a href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item" id="addApartmentNav">
+                      <a href="RoomTypes.html">Room Types</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="FeedBack.html">Feedback</a>
+                      </li>
+                    
+                  </ul>
+                </div>
+                </nav>
+      
+
+       
+    <div>
+      <h1 class = "hotelBigName"> H E L L I T O N </h1>
+        <div class="container">
+          <div class="login-box">
+            <h1 class="Cent">Log in</h1>
+            <form action="" onsubmit="login()">
+              <div class="form-group">
+                <label for="username">Username
+                  <span id="errUnameL"></span>
+                </label>
+                <input type="text" id="username" name="username" placeholder="Enter username">
+              </div>
+              <div class="form-group">
+                <label for="password">Password
+                  <span id="errPassL"></span>
+                  </label>
+                <input type="password" id="password" name="password" placeholder="**********">
+              </div>
+              <div class = "logDiv"> 
+              <button type="submit" class="logbtn">Login</button>
+              <h3 id="status"></h3>
+              <h3 class="notMem">Not a Member yet? <a class="notMem" href="register.html" >Register</a></h3>
+            </div>
+            </form>
+            
+          </div>
+          <footer class="footerLog">
+            &copy; 2023 Mohammed Hassan Work. All rights reserved.
+          </footer>
+        </div>
+        
+    
+    
+
+</body>
+</html>

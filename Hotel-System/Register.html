@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" media="all" href="style.css" type="text/css" />
+        <script src="script.js"></script>
+    <title>Helliton Register Page</title>
+</head>
+<body>
+  <script src="script.js"></script>
+    <div class="wrapper">
+      <div class="header">
+        <script src="script.js"></script>
+        <h3 class="hotelName">Helliton</h3>
+        <div class="log">
+          <ul class="log-list">
+            <li class="log-item" id="loginNav">
+              <a href="Login.html">Login</a>
+            </li>
+            <li class="log-item" id="registerNav">
+              <a href="Register.html"><ins> Register </ins></a>
+            </li>
+            <li class="log-item" id="logoutNav"></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      
+  
+    <nav>
+<div class="nav">
+          <ul class="nav-list">
+              <li class="nav-item">
+                </li>
+            <li class="nav-item">
+              <a href="Home.html">Home</a>
+            </li>
+            <li class="nav-item" id="addApartmentNav">
+              <a href="RoomTypes.html">Room Types</a>
+            </li>
+            <li class="nav-item">
+              <a href="FeedBack.html">Feedback</a>
+              </li>
+            
+          </ul>
+        </div>
+        </nav>
+
+       
+    <div>
+      <h1 class = "hotelBigName"> H E L L I T O N </h1>
+        <div class="container">
+          <div class="registerBox">
+            <h1 class="Cent">Registration</h1>
+            <form action="" onsubmit="return (signup)">
+              <div class="form-group">
+                <label for="username">Username
+                <span id="errUname"></span>
+              </label>
+                <input type="text" id="username" name="username" placeholder="Enter Your username" >
+              </div>
+              <div class="form-group">
+                <label for="firstname">First name   <span id="errFname"> </span> </label>
+              
+                <input type="text" id="firstname" name="firstname" placeholder="Enter Your First name"  >
+              </div>
+              <div class="form-group">
+                <label for="lastname">Last name
+                <span id="errLname"></span>
+              </label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter Your last name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email
+                   <span id="errEmail"></span>
+                  </label>
+                
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" >
+              </div>
+              <div class="form-group">
+                <label for="PhoneNum">Phone Number
+                <span id="PhoneError"></span>
+                </label>
+                <input type="Phonenumber" id="Phonenumber" name="Phonenumber" placeholder="Enter Your Phone Number" >
+              </div>
+              <div class="form-group">
+                <label for="password">Password
+                <span id="errfPass"></span>
+                </label>
+                <input type="password" id="password" name="password" placeholder="Enter Your Password" >
+              </div>
+              <div class="form-group">
+                <label for="confirm-password">Confirm Password
+                <span id="errSPass"></span>
+                </label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-Enter Your Password" >
+              
+              </div>
+              
+              
+              <div class = "logDiv"> 
+                <button type="submit" class="logbtn" onclick="signup()">Sign up</button>
+              
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+    </div>
+    
+        <footer class="footerRe">
+          &copy; 2023 Mohammed Hassan Work. All rights reserved.
+        </footer>
+</body>
+</html>
+        
